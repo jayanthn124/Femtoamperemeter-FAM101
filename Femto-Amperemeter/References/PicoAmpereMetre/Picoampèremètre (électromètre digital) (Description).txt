@@ -1,0 +1,1 @@
+Dans cette vidéo, je vous présente mon picoampèremètre, un circuit électronique basé sur le DDC112 et un TinyFPGA. Il permet de mesurer des courants électriques de l'ordre de 10^{-12}A, avec une résolution théorique de 20 bits (qui est largement surévaluée par rapport au bruit du circuit, d'environ 0,1 pA).

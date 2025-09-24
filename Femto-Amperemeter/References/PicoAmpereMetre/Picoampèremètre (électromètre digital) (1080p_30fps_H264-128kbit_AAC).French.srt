@@ -1,0 +1,1000 @@
+1
+00:00:00,000 --> 00:00:08,369
+bonjour je vous présente mon picot en
+
+2
+00:00:02,638 --> 00:00:10,349
+permettre un picot à permettre si un
+
+3
+00:00:08,369 --> 00:00:12,928
+instrument qui permet de mesurer les
+
+4
+00:00:10,349 --> 00:00:15,419
+courants extrêmement petit on parle ici
+
+5
+00:00:12,929 --> 00:00:16,980
+de courant de l'ordre de 1 milliard de
+
+6
+00:00:15,419 --> 00:00:18,679
+fois plus petit qu est ce qu un
+
+7
+00:00:16,980 --> 00:00:21,028
+multimètre ordinaire peut mesurer
+
+8
+00:00:18,679 --> 00:00:22,439
+je les ai une recherche des différences
+
+9
+00:00:21,028 --> 00:00:24,539
+analogue front interne sur les sites web
+
+10
+00:00:22,439 --> 00:00:27,149
+de thé y est je suis tombé sur le
+
+11
+00:00:24,539 --> 00:00:29,189
+délaissé 112 qui est un convertisseur de
+
+12
+00:00:27,149 --> 00:00:30,239
+courant à la différence de la plupart
+
+13
+00:00:29,189 --> 00:00:31,618
+des autres compétiteurs qui sont des
+
+14
+00:00:30,239 --> 00:00:33,299
+couvertures de voltage donc celui ci
+
+15
+00:00:31,618 --> 00:00:35,609
+permet de mesurer des courants
+
+16
+00:00:33,299 --> 00:00:37,949
+extrêmement faible et même ils ont la
+
+17
+00:00:35,609 --> 00:00:40,049
+particularité de pouvoir accepter en
+
+18
+00:00:37,950 --> 00:00:41,940
+entrée directement une photodiode sans
+
+19
+00:00:40,049 --> 00:00:43,919
+pré amplificateur donc ce camp mais
+
+20
+00:00:41,939 --> 00:00:46,530
+aussi de mesurer des niveaux de lumière
+
+21
+00:00:43,920 --> 00:00:47,670
+extrêmement extrêmement faible mais
+
+22
+00:00:46,530 --> 00:00:49,439
+c'était juste le début de l'aventuré
+
+23
+00:00:47,670 --> 00:00:52,260
+parce que comme la plupart des puces
+
+24
+00:00:49,439 --> 00:00:54,448
+pour leur donner une alimentation faut
+
+25
+00:00:52,259 --> 00:00:56,759
+leur donner un contrôle digital folie
+
+26
+00:00:54,448 --> 00:00:59,339
+soudés sur un circuit imprimé et tout
+
+27
+00:00:56,759 --> 00:01:01,259
+cela doit être fait avec très peu de
+
+28
+00:00:59,340 --> 00:01:02,640
+contamination très peu de bruit parce
+
+29
+00:01:01,259 --> 00:01:05,308
+que c'est un circuit extrêmement
+
+30
+00:01:02,640 --> 00:01:07,530
+sensible le circuit électronique est
+
+31
+00:01:05,308 --> 00:01:10,048
+assez simple puisque d'une part je me
+
+32
+00:01:07,530 --> 00:01:11,760
+suis inspiré du d'attaché et d'autre
+
+33
+00:01:10,049 --> 00:01:14,750
+part parce que je fais juste connecter
+
+34
+00:01:11,760 --> 00:01:16,799
+directement lépine digital afp ge
+
+35
+00:01:14,750 --> 00:01:19,409
+pour ce qui est de la partie analogique
+
+36
+00:01:16,799 --> 00:01:21,920
+c'est simplement une référence de 4 096
+
+37
+00:01:19,409 --> 00:01:25,080
+vol qu'il faut fournir aux ddc sandoz
+
+38
+00:01:21,920 --> 00:01:28,228
+donc j'ai ma référence proprement dite
+
+39
+00:01:25,079 --> 00:01:30,030
+est un amplificateur tampon ce sont tous
+
+40
+00:01:28,228 --> 00:01:32,670
+des pièces qui ont été suggérées dans le
+
+41
+00:01:30,030 --> 00:01:34,019
+data chez geo vraiment que merizzi pour
+
+42
+00:01:32,670 --> 00:01:35,969
+ce qui est de la conception de circuits
+
+43
+00:01:34,019 --> 00:01:38,129
+imprimés ça a été un peu plus compliqué
+
+44
+00:01:35,969 --> 00:01:41,310
+parce que c'est la première fois que je
+
+45
+00:01:38,129 --> 00:01:44,789
+faisais un pcb sur le faussement tu est
+
+46
+00:01:41,310 --> 00:01:47,549
+aussi un pcb ou il ya deux gros ringard
+
+47
+00:01:44,790 --> 00:01:50,250
+d'analogique un groupe digital donc pour
+
+48
+00:01:47,549 --> 00:01:53,189
+isoler le plus possible les grandes
+
+49
+00:01:50,250 --> 00:01:55,140
+loops pour ajouter encore plus
+
+50
+00:01:53,188 --> 00:01:58,169
+d'immunité au bruit électromagnétiques
+
+51
+00:01:55,140 --> 00:02:00,060
+toute la partie analogique et sandwiches
+
+52
+00:01:58,170 --> 00:02:02,430
+et entre deux grandes finalement dans
+
+53
+00:02:00,060 --> 00:02:05,969
+tout l'espace qui était pas dédié aux
+
+54
+00:02:02,430 --> 00:02:08,039
+fils est rempli de cuivre pour faire une
+
+55
+00:02:05,968 --> 00:02:09,628
+ronde je veux se croiser les doigts pour
+
+56
+00:02:08,038 --> 00:02:11,759
+poker d'erreurs puis j'en voyais ça
+
+57
+00:02:09,628 --> 00:02:12,759
+manufacturier quand je les ai reçus j'ai
+
+58
+00:02:11,759 --> 00:02:14,649
+aussi acheté
+
+59
+00:02:12,759 --> 00:02:16,359
+toutes les pièces que le besoin et j'ai
+
+60
+00:02:14,650 --> 00:02:17,530
+tout donné donc c'était en surface monte
+
+61
+00:02:16,360 --> 00:02:20,260
+c'est très difficile avec un fer à
+
+62
+00:02:17,530 --> 00:02:22,628
+souder gérant en fait le plus beau que
+
+63
+00:02:20,259 --> 00:02:23,979
+je pouvais et ça le marché à la droite
+
+64
+00:02:22,628 --> 00:02:26,530
+de l'écran vous pouvez voir le fpg
+
+65
+00:02:23,979 --> 00:02:28,869
+objets utilisés c'est en tanière fidji
+
+66
+00:02:26,530 --> 00:02:31,180
+et bx et c'est lui qui fait toute la
+
+67
+00:02:28,870 --> 00:02:33,459
+magie digitale de façon temporaire
+
+68
+00:02:31,180 --> 00:02:36,370
+j'utilise en parlant verte et pour
+
+69
+00:02:33,459 --> 00:02:38,098
+sortir les données géo alors c'est le
+
+70
+00:02:36,370 --> 00:02:41,109
+fils que vous voyez ici qui pendouille
+
+71
+00:02:38,098 --> 00:02:43,658
+et je le branche sur le port série de
+
+72
+00:02:41,109 --> 00:02:46,540
+montréal mary pas capable d'afficher les
+
+73
+00:02:43,658 --> 00:02:49,149
+données sur l'écran voici le code que
+
+74
+00:02:46,539 --> 00:02:50,530
+j'ai écrit pour l'efs pge s'étant
+
+75
+00:02:49,150 --> 00:02:54,519
+verilog parce que c'est ce que le
+
+76
+00:02:50,530 --> 00:02:56,139
+synthétisant aux tueries aux avait les
+
+77
+00:02:54,519 --> 00:02:58,090
+impôts télé atrous demont module
+
+78
+00:02:56,139 --> 00:03:00,579
+principal
+
+79
+00:02:58,090 --> 00:03:01,628
+j'utilise des alliances pour lépine pour
+
+80
+00:03:00,579 --> 00:03:03,780
+être capable de les relier directement
+
+81
+00:03:01,628 --> 00:03:06,250
+au circuit électronique que j'ai fait
+
+82
+00:03:03,780 --> 00:03:08,769
+le premier module que j'ai utilisé pour
+
+83
+00:03:06,250 --> 00:03:10,419
+faire du debugging célibat rti
+
+84
+00:03:08,769 --> 00:03:11,980
+donc j'ai trouvé un code sur internet
+
+85
+00:03:10,419 --> 00:03:12,818
+qui était déjà fait pour moi c'est la
+
+86
+00:03:11,979 --> 00:03:14,018
+joie de l'open source
+
+87
+00:03:12,818 --> 00:03:16,208
+tout ce qu'il fallait que je trouve
+
+88
+00:03:14,019 --> 00:03:17,699
+c'est comment l'interface est dans mon
+
+89
+00:03:16,209 --> 00:03:19,598
+désir
+
+90
+00:03:17,699 --> 00:03:21,910
+une chose à savoir dans la programmation
+
+91
+00:03:19,598 --> 00:03:24,098
+et pga qui rend la base c'est que toutes
+
+92
+00:03:21,909 --> 00:03:25,539
+les bouts de code sont exécutés en
+
+93
+00:03:24,098 --> 00:03:27,878
+parallèle donc c'est des petits blocs
+
+94
+00:03:25,539 --> 00:03:29,769
+sont toutes exécutées en parallèle si on
+
+95
+00:03:27,878 --> 00:03:33,219
+veut faire des séquences faut utiliser
+
+96
+00:03:29,769 --> 00:03:35,560
+des machines d'état je commence par a
+
+97
+00:03:33,219 --> 00:03:37,840
+signé les trois pays pour le reich de
+
+98
+00:03:35,560 --> 00:03:40,479
+l'intégrateur donc le gym y aura un
+
+99
+00:03:37,840 --> 00:03:43,150
+train ce qui fait leur un choc si maroc
+
+100
+00:03:40,479 --> 00:03:44,738
+350 picot coulon dans l'autre partie du
+
+101
+00:03:43,150 --> 00:03:47,439
+code s'exécute en parallèle le tout le
+
+102
+00:03:44,739 --> 00:03:50,378
+reste je génère une cloque pour mon dd
+
+103
+00:03:47,439 --> 00:03:51,009
+c'est sa fréquence maximale de 10
+
+104
+00:03:50,378 --> 00:03:53,138
+magasins
+
+105
+00:03:51,009 --> 00:03:54,939
+donc moi le club de mon effigie on est à
+
+106
+00:03:53,139 --> 00:03:56,949
+cinq mégahertz donc j'ai tout simplement
+
+107
+00:03:54,939 --> 00:03:58,840
+divisé par deux ses frais quand cela
+
+108
+00:03:56,949 --> 00:04:00,879
+pourra voir 8 mégas watts avec le petit
+
+109
+00:03:58,840 --> 00:04:01,959
+bout de code que vous voyez là dans
+
+110
+00:04:00,878 --> 00:04:04,418
+l'autre blog qui lui aussi est en
+
+111
+00:04:01,959 --> 00:04:06,759
+parallèle gênant le signal qu'on veut
+
+112
+00:04:04,419 --> 00:04:09,040
+donc se signalent leur permet de définir
+
+113
+00:04:06,759 --> 00:04:11,739
+la durée d'intégration il ya deux
+
+114
+00:04:09,039 --> 00:04:14,138
+intégrateurs pour chaque input le signal
+
+115
+00:04:11,739 --> 00:04:16,870
+qu'on vous permet de switcher de ralo
+
+116
+00:04:14,139 --> 00:04:18,908
+donc si c'est un servette l'état 4 à 6
+
+117
+00:04:16,870 --> 00:04:20,649
+et 0 s'arrête intégrateurs b ce qui
+
+118
+00:04:18,908 --> 00:04:23,620
+permet en fait d'assurer une lecture en
+
+119
+00:04:20,649 --> 00:04:25,899
+continu du signal a duré d'intégration
+
+120
+00:04:23,620 --> 00:04:27,459
+que j'ai choisie et de une seconde
+
+121
+00:04:25,899 --> 00:04:29,739
+parce que ça me permet de convertir
+
+122
+00:04:27,459 --> 00:04:32,649
+directement les pico coulon picot ampère
+
+123
+00:04:29,740 --> 00:04:34,509
+et aussi parce que c'est un rythme assez
+
+124
+00:04:32,649 --> 00:04:37,448
+lent pour être capable de traiter les
+
+125
+00:04:34,509 --> 00:04:41,080
+données facilement pour y arriver j'ai
+
+126
+00:04:37,449 --> 00:04:42,970
+écrit un simple compteur en verilog donc
+
+127
+00:04:41,079 --> 00:04:44,918
+je mesure à chaque fois qu'une
+
+128
+00:04:42,970 --> 00:04:47,860
+transition positive de ma club de mons
+
+129
+00:04:44,918 --> 00:04:49,299
+pga et quand il y en a 16 millions ça me
+
+130
+00:04:47,860 --> 00:04:50,970
+donne une seconde parce que je tends 16
+
+131
+00:04:49,300 --> 00:04:53,139
+mégawatts
+
+132
+00:04:50,970 --> 00:04:55,509
+on arrive maintenant au coeur du
+
+133
+00:04:53,139 --> 00:04:56,740
+problème la raison pour laquelle j'ai
+
+134
+00:04:55,509 --> 00:04:59,439
+décidé d'étudier un pg e
+
+135
+00:04:56,740 --> 00:05:02,019
+parce qu'il faut s'interfacer à une
+
+136
+00:04:59,439 --> 00:05:03,660
+interface série costom sud est d'essayer
+
+137
+00:05:02,019 --> 00:05:06,430
+dont il faut générer tous ces signaux là
+
+138
+00:05:03,660 --> 00:05:09,400
+pour refaire à bien synchroniser le tout
+
+139
+00:05:06,430 --> 00:05:11,139
+j'ai écrit une machine d'état je vais
+
+140
+00:05:09,399 --> 00:05:13,538
+vous passez rapidement toutes les étapes
+
+141
+00:05:11,139 --> 00:05:15,160
+je commence par le raider donc en fait
+
+142
+00:05:13,538 --> 00:05:16,599
+dans la raideur c'est une boucle qui
+
+143
+00:05:15,160 --> 00:05:20,949
+revient tout le temps à cette heure
+
+144
+00:05:16,600 --> 00:05:23,320
+à moins que ledit valide touba 0 et que
+
+145
+00:05:20,949 --> 00:05:26,379
+samedi en fait qu'une nouvelle donnée à
+
+146
+00:05:23,319 --> 00:05:28,269
+lire à ce moment là je passe dans mon
+
+147
+00:05:26,379 --> 00:05:31,209
+rythme des décès qui lui veulent générer
+
+148
+00:05:28,269 --> 00:05:34,000
+la cloque de lecture et à chaque fois
+
+149
+00:05:31,209 --> 00:05:36,098
+ils veulent et le but de donner le
+
+150
+00:05:34,000 --> 00:05:38,129
+mettre dans un bas-fond incrémenté le
+
+151
+00:05:36,098 --> 00:05:40,689
+pointeur de son beau frère
+
+152
+00:05:38,129 --> 00:05:42,279
+j'alterne séquentiellement en tribus
+
+153
+00:05:40,689 --> 00:05:44,348
+délaissées pitch est cuit délicieuse
+
+154
+00:05:42,279 --> 00:05:46,538
+donne afin ne permet de savoir quand
+
+155
+00:05:44,348 --> 00:05:48,639
+est-ce que le boeuf en est plein et donc
+
+156
+00:05:46,538 --> 00:05:50,978
+à 40 buts je sais que la transmission
+
+157
+00:05:48,639 --> 00:05:52,990
+des données est terminée et à ce moment
+
+158
+00:05:50,978 --> 00:05:56,709
+leur jeu passe à l'étape suivante y est
+
+159
+00:05:52,990 --> 00:05:59,620
+de transmettre le boeuf a reparu à rta
+
+160
+00:05:56,709 --> 00:06:01,299
+mon ordinateur pour me synchronisée au
+
+161
+00:05:59,620 --> 00:06:03,009
+module doit arctique s'exécute en
+
+162
+00:06:01,300 --> 00:06:04,629
+parallèle de ma machine principale j'ai
+
+163
+00:06:03,009 --> 00:06:07,389
+dû faire un état qui s'appelle way to
+
+164
+00:06:04,629 --> 00:06:10,959
+war outil qui en fait fait juste
+
+165
+00:06:07,389 --> 00:06:11,978
+attendre après un signal du module doit
+
+166
+00:06:10,959 --> 00:06:14,049
+arctique
+
+167
+00:06:11,978 --> 00:06:15,550
+la transmission est terminée je
+
+168
+00:06:14,050 --> 00:06:18,668
+construis ensuite mon octet à
+
+169
+00:06:15,550 --> 00:06:22,240
+transmettre à partir de 8 bits de mon
+
+170
+00:06:18,668 --> 00:06:24,219
+bafa et je peux ensuite face aux cinq
+
+171
+00:06:22,240 --> 00:06:26,949
+fois de suite pour envoyer mes 40 bits
+
+172
+00:06:24,220 --> 00:06:29,320
+de données une fois la transmission
+
+173
+00:06:26,949 --> 00:06:31,389
+terminé j'en reviens à mon idole ça me
+
+174
+00:06:29,319 --> 00:06:34,778
+fait une boucle infinie comme ça en fait
+
+175
+00:06:31,389 --> 00:06:37,598
+le résultat final c'est que mons pge lit
+
+176
+00:06:34,778 --> 00:06:39,459
+en continu les données provenant du ddc
+
+177
+00:06:37,598 --> 00:06:42,550
+sandoz et les passe encore
+
+178
+00:06:39,459 --> 00:06:44,769
+tenue à l'ordinateur on commence à être
+
+179
+00:06:42,550 --> 00:06:47,379
+enfin sorti du bois digital je peux
+
+180
+00:06:44,769 --> 00:06:50,109
+utiliser python son ordi alors je peux
+
+181
+00:06:47,379 --> 00:06:53,529
+juste ouvriront par séries et lire les
+
+182
+00:06:50,110 --> 00:06:54,939
+données de lui heurter du port série la
+
+183
+00:06:53,529 --> 00:06:57,848
+tâche qui a un peu ardus et de
+
+184
+00:06:54,939 --> 00:07:00,069
+reconstruire le chiffre de 20 bits pour
+
+185
+00:06:57,848 --> 00:07:05,168
+chacun des deuxièmes pout qui est en
+
+186
+00:07:00,069 --> 00:07:09,610
+fait mélanger sur 5 oct et je commence
+
+187
+00:07:05,168 --> 00:07:11,500
+par convertir chaque octet en entier et
+
+188
+00:07:09,610 --> 00:07:14,400
+je multiplie par un poids qui correspond
+
+189
+00:07:11,500 --> 00:07:17,050
+à sa position dans la chaîne de beats
+
+190
+00:07:14,399 --> 00:07:19,508
+ensuite j'enlève le vii tel que spécifié
+
+191
+00:07:17,050 --> 00:07:22,300
+dans sa tâche et j'ai divisé par deux à
+
+192
+00:07:19,509 --> 00:07:25,120
+la 20 - heures et j'ai fait foi le folk
+
+193
+00:07:22,300 --> 00:07:29,199
+elle pour avoir une valeur en picot
+
+194
+00:07:25,120 --> 00:07:31,959
+coulon pour valider tout ça parce que
+
+195
+00:07:29,199 --> 00:07:33,939
+croyait pas au clip du premier coup on
+
+196
+00:07:31,959 --> 00:07:36,189
+peut envoyer une charge de 13 picot
+
+197
+00:07:33,939 --> 00:07:37,348
+coulon par intégration en mettant une
+
+198
+00:07:36,189 --> 00:07:40,360
+pinard
+
+199
+00:07:37,348 --> 00:07:43,060
+en fait le d'attaché 10 environ 13 picot
+
+200
+00:07:40,360 --> 00:07:46,629
+coulon et moi avec que mon pic oppermann
+
+201
+00:07:43,060 --> 00:07:49,060
+mesure 14 picot coulant donc je vais
+
+202
+00:07:46,629 --> 00:07:50,829
+espérer que c'est pas moi qu'il ya une
+
+203
+00:07:49,060 --> 00:07:53,889
+erreur j'ai aucune façon de le valider
+
+204
+00:07:50,829 --> 00:07:56,198
+pour l'instant sinon quand je mets rien
+
+205
+00:07:53,889 --> 00:07:58,629
+sur relisez mon pote je me sur un petit
+
+206
+00:07:56,199 --> 00:08:01,750
+courant du fit négatif d'environ -
+
+207
+00:07:58,629 --> 00:08:03,610
+points un big o ampère pour finir je
+
+208
+00:08:01,750 --> 00:08:05,589
+laisse ou d une photodiode à l'arrière
+
+209
+00:08:03,610 --> 00:08:07,180
+d'un connecteur récemment ce qui me
+
+210
+00:08:05,589 --> 00:08:10,089
+permet de la branche est dans mon bureau
+
+211
+00:08:07,180 --> 00:08:11,408
+ovale m à travers un câble coaxial et
+
+212
+00:08:10,089 --> 00:08:13,179
+j'ai placé le tout dans une boîte
+
+213
+00:08:11,408 --> 00:08:15,728
+métallique afin d'éviter que toutes les
+
+214
+00:08:13,180 --> 00:08:17,860
+mères puissent rentrer pour valider le
+
+215
+00:08:15,728 --> 00:08:19,269
+circuit j'ai mesuré le courant lorsque
+
+216
+00:08:17,860 --> 00:08:19,960
+la faute aux dires des exposés à la
+
+217
+00:08:19,269 --> 00:08:23,649
+lumière du jour
+
+218
+00:08:19,959 --> 00:08:26,198
+ça donne environ 25 microampère donc
+
+219
+00:08:23,649 --> 00:08:28,359
+simon picot en pharmacie vrai dans ma
+
+220
+00:08:26,199 --> 00:08:30,069
+boîte métallique lieu à un million de
+
+221
+00:08:28,360 --> 00:08:31,900
+fois moins de lumière que en plein jour
+
+222
+00:08:30,069 --> 00:08:33,458
+je me suis cherché des sources de
+
+223
+00:08:31,899 --> 00:08:34,629
+lumière aussi faible que ce n'est
+
+224
+00:08:33,458 --> 00:08:37,179
+vraiment pas évident à trouver
+
+225
+00:08:34,629 --> 00:08:38,230
+après quelques essais infructueux j'ai
+
+226
+00:08:37,179 --> 00:08:40,059
+voulu
+
+227
+00:08:38,230 --> 00:08:41,620
+mesurer le sens avec la chimie
+
+228
+00:08:40,059 --> 00:08:45,309
+luminescence donc j'ai acheté un light
+
+229
+00:08:41,620 --> 00:08:47,100
+peak j'ai extrait lumineuse qui avait à
+
+230
+00:08:45,309 --> 00:08:49,479
+l'intérieur et j'ai essayé de mesurer
+
+231
+00:08:47,100 --> 00:08:51,639
+une goutte de savoir ça faisait la
+
+232
+00:08:49,480 --> 00:08:53,740
+rumeur avec sarko marché mais quand même
+
+233
+00:08:51,639 --> 00:08:55,120
+ça m'a donné l'idée de diluer se compose
+
+234
+00:08:53,740 --> 00:08:57,490
+il a vraiment beaucoup pour avoir une
+
+235
+00:08:55,120 --> 00:08:59,500
+lumière extrêmement faible et ça va
+
+236
+00:08:57,490 --> 00:09:01,810
+marcher donc et on peut observer ici à
+
+237
+00:08:59,500 --> 00:09:03,340
+peu près 17 picot coulon et ça descend
+
+238
+00:09:01,809 --> 00:09:05,829
+graduellement donc ça veut dire que la
+
+239
+00:09:03,340 --> 00:09:07,269
+réaction chimique si ces produits et les
+
+240
+00:09:05,830 --> 00:09:09,570
+produits se consomme finalement la
+
+241
+00:09:07,269 --> 00:09:11,139
+lumière de les croire au fil du temps
+
+242
+00:09:09,570 --> 00:09:12,730
+hier est sûrement bien d'autres
+
+243
+00:09:11,139 --> 00:09:14,350
+applications parce que faire des sources
+
+244
+00:09:12,730 --> 00:09:16,360
+de courant ou de lumière aussi faibles
+
+245
+00:09:14,350 --> 00:09:17,680
+que ceux c'est souvent la base de
+
+246
+00:09:16,360 --> 00:09:20,259
+beaucoup de projets en biologie et en
+
+247
+00:09:17,679 --> 00:09:21,519
+chimie et en physique alors je m'arrête
+
+248
+00:09:20,259 --> 00:09:23,559
+ici pour l'instant je vous remercie
+
+249
+00:09:21,519 --> 00:09:25,860
+beaucoup d'avoir regardé ma vidéo et à
+
+250
+00:09:23,559 --> 00:09:25,859
+la prochaine
+
